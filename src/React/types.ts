@@ -1,4 +1,4 @@
-import React from './React'
+import React from './index'
 
 export type CreateElementReturn = ReturnType<typeof React.createElement>
 

@@ -1,4 +1,6 @@
-import {React, ReactDom} from './MyReact/index'
+
+import React from './React'
+import ReactDom from './React-dom'
 import './style.css'
 const Input = () => {
 	const [text, setText] = React.useState('Initial text')

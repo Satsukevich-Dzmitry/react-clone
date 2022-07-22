@@ -1,5 +1,5 @@
-import React from './React'
-import { CreateElementReturn } from './types'
+import React from '../React'
+import { CreateElementReturn } from '../React/types'
 
 const ReactDom = (()=>{
 	let rootElement: HTMLElement | null = null
